@@ -1,0 +1,483 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.aliyun_topbar{
+	height: 150px;
+	background-color: aqua;
+}
+.home_hero{
+	height: 624px;
+	background-color: pink;
+}
+
+/* 企业应用中心模块css */
+.app_center{
+	height: 1272px;
+	background-color: #dde4ea;
+}
+.app_center_tiltle_top{
+	margin-top: 1.25rem;
+	margin-bottom: 1.25rem;
+}
+.app_center_title_left{
+	width: 75rem;
+	margin-left: auto;
+	margin-right: auto;
+}
+.app_center_title{
+	color: #000;
+	font-size: 24px;
+	font-weight: normal;
+/* 	background-color: #00FFFF; */
+}
+.app_center_service_box_left{
+	width: 75rem;
+	margin-left: auto;
+	margin-right: auto;
+/* 	background-color: #00FFFF; */
+}
+.app_center_service_box_container{
+	width: 75rem;
+	height: 37.5rem;
+	position: relative;
+	float: left;
+	display: inline-block;
+}
+.app_center_service_box_container_leftAdv{
+	width: 300px;
+	height: 600px;
+	background-image: url(../../img/app_center/1.jpg);
+	background-size: 100%;
+}
+.app_center_service_text01{
+	font-size: 18px;
+	padding-top: 1.875rem;
+	padding-left: 1.875rem;
+	padding-right: 1.875rem;
+	font-weight: 700;
+	color: #fff;
+}
+.app_center_service_text02{
+	font-size: 14px;
+	color: #fff;
+	width: 15rem;
+	height: 3rem;
+	margin-top: 0.5rem;
+	margin-left: 1.75rem;
+}
+.app_center_service_box_container_leftAdv{
+	width: 296px;
+}
+.app_center_service_box_container_leftAdv a{
+	width: 128px;
+	height: 36px;
+	font-size: 14px;
+	margin-top: 32px;
+	margin-left: 30px;
+	text-align: center;
+	color: #fff;
+	line-height: 36px;
+	border: 1px solid #fff;
+	text-decoration: none;
+	display: block;
+}
+.app_center_service_box_container_leftAdv a:hover{
+	color: #000000;
+	background-color:#fff ;
+}
+.app_center_advs{
+	width: 903px;
+	height: 600px;
+	position: absolute;
+    top: 0;
+    right: 0;
+	background-color: white;
+}
+.app_center_advs>div{
+	width: 300px;
+	height: 179px;
+	padding-top: 20px;
+	border-bottom: 1px solid #ededed;
+	border-right: 1px solid #ededed;
+	float: left;
+	position: relative;
+/* 	background-color: powderblue; */
+}
+.app_center_advs_label{
+	height: 20px;
+	margin-left: 20px;
+}
+.app_center_advs_label span{
+	font-size: 12px;
+	color: #999;
+	height: 20px;
+	line-height: 16px;
+	text-align: center;
+	display: inline-block;
+	border: 1px solid #d8d8d8;
+	border-radius: 4px;
+	padding: 1px 6px;
+	letter-spacing: .33px;
+}
+.app_center_advs_name{
+	margin-left: 20px;
+	text-align: left;
+	font-size: 14px;
+	color: #181818;
+	letter-spacing: .65px;
+	line-height: 30px;
+	height: 30px;
+	margin-top: 13px;
+	margin-bottom: 1px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.app_center_advs_promise{
+	margin-left: 20px;
+	text-align: justify;
+	line-height: 18px;
+	font-size: 12px;
+	white-space: pre-line;
+	color: #999;
+	letter-spacing: .56px;
+	height: 54px;
+	margin-right: 20px;
+}
+.app_center_advs_price{
+	margin-left: 20px;
+	margin-top: 16px;
+}
+.app_center_advs_price>span{
+	font-size: 12px;
+}
+.app_center_advs_price>span>span{
+	text-align: left;
+	font-size: 20px;
+	color: #ff6a00;
+	letter-spacing: .81px;
+	line-height: 26px;
+	height: 26px;
+}
+.app_center_fuHaoQian{
+	color: #ff6a00;
+	letter-spacing: .81px;
+	line-height: 26px;
+}
+#app_center_qi{
+	text-align: left;
+	font-size: 14px;
+	color: #181818;
+	letter-spacing: .81px;
+	line-height: 24px;
+	height: 24px;
+}
+.app_center_advs_buy{
+	width: 100%;
+	height: 60px;
+	background-color: #ff6a00;
+	position: absolute;
+	bottom: 0;
+	margin-bottom: -1px;
+/* 	display: none; */
+	opacity: 0;
+}
+.app_center_advs_buy a:nth-of-type(1){
+	background-color: #fff;
+	border: 1px solid #ff6a00;
+	box-sizing: border-box;
+	color: #ff6a00;
+	float: left;
+	text-align: center;
+	font-size: 16px;
+	letter-spacing: .65px;
+	height: 60px;
+	width: 50%;
+	text-decoration: none;
+	line-height: 50px;
+}
+.app_center_advs_buy a:nth-of-type(2){
+	background-color: #ff6a00;
+	border: 1px solid #ff6a00;
+	box-sizing: border-box;
+	color: #fff;
+	float: left;
+	text-align: center;
+	font-size: 16px;
+	letter-spacing: .65px;
+	height: 60px;
+	width: 50%;
+	text-decoration: none;
+	line-height: 50px;
+}
+.app_center_advs>div:hover .app_center_advs_buy{
+	height: 60px;
+	transition: all .3s;
+/* 	display: block; */
+	opacity: 1;
+}
+.app_center_advs>div:hover{
+	box-shadow: 10px 10px 5px #888888;
+	transition: all 0.3s;
+}
+.app_center_service_box_container_leftAdv2{
+	width: 296px;
+	height: 600px;
+	background-image: url(../../img/app_center/2.jpg);
+	background-size: 100%;
+}
+.app_center_service_box_container_leftAdv2 a{
+	width: 128px;
+	height: 36px;
+	font-size: 14px;
+	margin-top: 32px;
+	margin-left: 30px;
+	text-align: center;
+	color: #fff;
+	line-height: 36px;
+	border: 1px solid #fff;
+	text-decoration: none;
+	display: block;
+}
+.app_center_service_box_container_leftAdv2 a:hover{
+	color: #000000;
+	background-color:#fff ;
+}
+.app_center_service_box_container2{
+	margin-top: 20px;
+	width: 75rem;
+	height: 37.5rem;
+	position: relative;
+	float: left;
+	display: inline-block;
+}
+.app_center_advs>.app_center_advs_container{
+	padding-top: 0;
+	width: 300px;
+	height: 279px;
+	padding-top: 20px;
+	border-bottom: 1px solid #ededed;
+	border-right: 1px solid #ededed;
+	float: left;
+	position: relative;
+}
+.app_center_advs_container{
+	position: relative;
+}
+.app_center_advs_name2{
+	padding: 20px;
+}
+.app_center_advs_name2_one{
+	height: 34px;
+	line-height: 1.28571
+}
+.app_center_advs_name2_one a{
+	color: #999;
+	display: inline-block;
+	font-size: 12px;
+	height: 20px;
+	line-height: 20px;
+	padding: 0 7.5px;
+	text-decoration: none;
+	border: 1px solid #d8d8d8;
+	border-color: inherit;
+	border-radius: 4px;
+	background: #fff;
+}
+.app_center_advs_name2_two{
+	font-size: 14px;
+	font-weight: 400;
+}
+.app_center_advs_name2_three{
+	color: rgb(153, 153, 153);
+	height: 40px;
+}
+.app_center_advs_name2_three span{
+	font-size: 12px;
+	line-height: 18px;
+}
+.app_center_advs_name2_character{
+	margin-bottom: 40px;
+}
+.app_center_advs_name2_character div{
+	padding-left: 20px;
+	padding-right: 0px;
+}
+.app_center_advs_name2_character_text{
+	color: rgb(255, 106, 0);
+	font-size: 12px;
+	margin-right: 8px;
+}
+.app_center_advs_name2_character_price{
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.app_center_advs_name2_character_price_container{
+	padding-top: 7px;
+	padding-bottom: 20px;
+}
+.app_center_advs_price_emphasis{
+	color: #ff6a00;
+}
+.app_center_advs_price_emphasis span:nth-of-type(2){
+	font-size: 20px;
+}
+.app_center_advs_price_emphasis span:nth-of-type(3){
+	font-size: 14px;
+}
+.app_center_advs_hidden{
+	position: absolute;	
+	width: 100%;
+	bottom: 0;
+	right: 0;
+	height: 60px;
+	line-height: 60px;
+	background-color: #ff6a00;
+	text-align: center;
+	opacity: 0;
+/* 	display: none; */
+}
+.app_center_advs_hidden a{
+	height: 60px;
+	line-height: 60px;
+	color: white;
+	background-color: #ff6a00;
+	border: none;
+}
+.app_center_advs_container:hover .app_center_advs_hidden{
+/* 	display: block; */
+	opacity: 1;
+	transition: all 1s;
+}
+/* 右侧的联系我们提示固定栏css */
+.entry-button-wrap{
+	display: inline-block;
+	position: fixed;
+	right: 15px;
+	bottom: 198px;
+	z-index: 9999;
+	padding-left: 10px;
+}
+.entry-button-wrap-link{
+	float: right;
+	padding-left: 10px;
+	position: relative;
+}
+.entry-button-wrap-link a{
+	color: #ff6a00;
+	text-decoration: none;
+	text-decoration: none!important;
+	width: 44px;
+	height: 128px;
+	box-shadow: 0 6px 12px 0 rgba(0,0,0,.15);
+	background-color: #fff;
+	text-align: center;
+	display: inline-block;
+	cursor: pointer;
+}
+.entry-button-wrap-link img{
+	color: #ff6a00;
+	width: 30px;
+	display: block;
+	margin: 15px auto 10px;
+	font-size: 34px;
+	text-align: center;
+	line-height: 22px;
+}
+.entry-button-wrap-link div{
+	width: 10px;
+	width: 24px;
+	margin-left: 10px;
+	font-size: 14px;
+}
+/* 隐藏栏部分 */
+.xiaoyun-panle-box{
+	width: 320px;
+	position: absolute;
+	bottom: 0;
+	right: 52px;
+	box-shadow: 0 6px 12px 0 rgba(0,0,0,.15);
+	opacity: 0;
+	transition: all 0.5s;
+	background: #fff;
+}
+.xiaoyun-panle-box ul{
+	list-style: none;
+	padding: 20px;
+}
+.entry-button-wrap-link:hover~.xiaoyun-panle-box,.xiaoyun-panle-box:hover{
+	opacity: 1;
+}
+.xiaoyun-panle-box li{
+	margin-bottom: 20px;
+}
+.xiaoyun-panle-box-delete{
+	position: absolute;
+	right: 20px;
+	top: 20px;
+}
+.xiaoyun-panle-box-delete img{
+	width: 14px;
+}
+.xiaoyun-panle-box-icon{
+	width: 24px;
+	height: 25px;
+	display: inline-block;
+	vertical-align: middle;
+}
+.xiaoyun-panle-box-icon i{
+	font-size: 30px;
+	top: -7px;
+	position: relative;
+/* 	top: -7px; */
+}
+.xiaoyun-panle-box-text{
+	display: inline-block;
+	margin-left: 15px;
+}
+.xiaoyun-panle-box-text a{
+	text-decoration: none;
+}
+.xiaoyun-panle-box-text-bigger{
+	color: #373d41;
+	font-size: 14px;
+}
+.xiaoyun-panle-box-text-smaller{
+	color: #9b9ea0;
+	font-size: 12px;
+}
+#special{
+	color: #ff6a00;
+	font-size: 12px;
+}
+/* 使用图标 */
+@font-face {
+  font-family: 'iconfont';
+  src: url('iconfont.eot');
+  src: url('iconfont.eot?#iefix') format('embedded-opentype'),
+      url('iconfont.woff2') format('woff2'),
+      url('iconfont.woff') format('woff'),
+      url('iconfont.ttf') format('truetype'),
+      url('iconfont.svg#iconfont') format('svg');
+}
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+
+
+.hot_information{
+	height: 1815px;
+	background-color: brown;
+}
+.aliyun_bottom{
+	height: 1305px;
+	background-color: #00FFFF;
+}
