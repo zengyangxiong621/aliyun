@@ -1,0 +1,24 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.aliyun_topbar{
+	height: 150px;
+	background-color: aqua;
+}
+.home_hero{
+	height: 624px;
+	background-color: pink;
+}
+.app_center:;{
+	height: 1272px;;
+	background-color: chartreuse;
+}
+.hot_information{
+	height: 1815px;
+	background-color: brown;
+}
+.aliyun_bottom{
+	height: 1305px;
+	background-color: #00FFFF;
+}
