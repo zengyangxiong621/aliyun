@@ -35,11 +35,6 @@
 	background-color: pink;
 }
 
-.app_center {
-	height: 1156px;
-	background-color: chartreuse;
-}
-
 /* 清除浮动的代码 */
 .clearfix:before,
 .clearfix:after {

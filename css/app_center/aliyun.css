@@ -5,7 +5,8 @@
 /* 企业应用中心模块css */
 .app_center{
 	height: 1272px;
-	background-color: #dde4ea;
+    background-color: #dfdddd;
+	margin-bottom: -30px;
 }
 .app_center_tiltle_top{
 	margin-top: 1.25rem;
