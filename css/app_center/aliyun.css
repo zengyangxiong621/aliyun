@@ -2,15 +2,6 @@
 	margin: 0;
 	padding: 0;
 }
-.aliyun_topbar{
-	height: 150px;
-	background-color: aqua;
-}
-.home_hero{
-	height: 624px;
-	background-color: pink;
-}
-
 /* 企业应用中心模块css */
 .app_center{
 	height: 1272px;
@@ -451,6 +442,25 @@
 	color: #ff6a00;
 	font-size: 12px;
 }
+/* 回到顶部提示的隐藏栏 */
+.return-to-top{
+	position: fixed;
+	bottom: 20px;
+	right: 15px;
+	width: 44px;
+	height: 44px;
+	box-shadow: 0 6px 12px 0 rgba(0,0,0,.15);
+	z-index: 9999;
+	background: #fff;
+}
+.return-to-top i{
+	color: #ff6a00;
+	font-size: 36px;
+	text-align: center;
+	line-height: 45px;
+	position: relative;
+	left: 4px;
+}
 /* 使用图标 */
 @font-face {
   font-family: 'iconfont';
@@ -472,12 +482,3 @@
 
 
 
-
-.hot_information{
-	height: 1815px;
-	background-color: brown;
-}
-.aliyun_bottom{
-	height: 1305px;
-	background-color: #00FFFF;
-}
