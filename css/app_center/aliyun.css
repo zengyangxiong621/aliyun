@@ -443,7 +443,7 @@
 	font-size: 12px;
 }
 /* 回到顶部提示的隐藏栏 */
-.return-to-top{
+#return-to-top{
 	position: fixed;
 	bottom: 20px;
 	right: 15px;
@@ -452,8 +452,12 @@
 	box-shadow: 0 6px 12px 0 rgba(0,0,0,.15);
 	z-index: 9999;
 	background: #fff;
+	display: none;
 }
-.return-to-top i{
+#return-to-top a{
+	text-decoration: none;
+}
+#return-to-top i{
 	color: #ff6a00;
 	font-size: 36px;
 	text-align: center;
@@ -463,8 +467,7 @@
 }
 /* 使用图标 */
 @font-face {
-  font-family: 'iconfont';
-  src: url('iconfont.eot');
+  font-family#return-to-top  src: url('iconfont.eot');
   src: url('iconfont.eot?#iefix') format('embedded-opentype'),
       url('iconfont.woff2') format('woff2'),
       url('iconfont.woff') format('woff'),
