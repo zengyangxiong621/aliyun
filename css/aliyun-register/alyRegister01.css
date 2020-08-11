@@ -61,7 +61,6 @@ body{
 	height: 15px;
 	position: absolute;
 	top: 50px;
-	background-color: #00FFFF;
 }
 .register-title-language-choice-box{
 	position: absolute;
@@ -69,12 +68,28 @@ body{
 	min-width: 100px;
 	right: 0;
 	top: 63px;
-	/* background: #fff; */
-	background-color: red;
+	background: #fff;
 	border: 1px solid #ededed;
 	box-shadow: 0 2px 4px 0 rgba(0,0,0,.1);
+	display: none;
 }
 .register-title-language-choice-box a{
 	text-decoration: none;
 	color: #999;
+}
+.register-title-language-choice-lan{
+	font-size: 13px;
+	margin: 5px;
+}
+.register-title-language-choice:hover~.register-title-language-choice-box{
+	display: block;
+}
+.register-title-language-choice-emptyBox:hover~.register-title-language-choice-box{
+	display: block;
+}
+.register-title-language-choice-box:hover{
+	display: block;
+}
+.register-title-language-choice-box a:hover{
+	color: #ff6a00;
 }
