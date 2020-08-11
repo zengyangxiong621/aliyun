@@ -1,0 +1,80 @@
+/* 阿里云的登录跳转页面 css */
+body{
+	margin: 0;
+}
+.register-title{
+	height: 80px;
+	width: 100%;
+	position: relative;
+	z-index: 1000;
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,.1);
+	background: #fff;
+}
+.register-title-container{
+	position: relative;
+	padding: 26.5px 0;
+	margin: auto;
+	max-width: 1200px;
+	padding: 26.5px 0;
+	color: #373d41;
+	line-height: 1.28571;
+}
+.register-title-container a{
+	display: inline-block;
+	text-decoration: none;
+}
+.register-title-container img{
+	height:27px ;
+	padding-right: 10px;
+}
+.register-title-main span{
+	position: absolute;
+	top: 29%;
+	font-size: 24px;
+	border-left: 1px solid #999;
+	padding: 0 10px;
+}
+.register-title-language-choice{
+	float: right;
+	min-width: 80px;
+	position: absolute;
+	right: 0;
+	top: 36%;
+	color: #999;
+	border: 1px solid #ededed;
+	margin-left: 12px;
+	text-align: center;
+}
+.register-title-language-choice a{
+	text-decoration: none;
+	color: #999;
+}
+.register-title-language-choice span{
+	font-size: 12px;
+}
+.register-title-language-choice i{
+	font-size: 13px;
+}
+.register-title-language-choice-emptyBox{
+	right: 20px;
+	width: 66px;
+	height: 15px;
+	position: absolute;
+	top: 50px;
+	background-color: #00FFFF;
+}
+.register-title-language-choice-box{
+	position: absolute;
+	padding: 10px 16px;
+	min-width: 100px;
+	right: 0;
+	top: 63px;
+	/* background: #fff; */
+	background-color: red;
+	border: 1px solid #ededed;
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,.1);
+}
+.register-title-language-choice-box a{
+	text-decoration: none;
+	color: #999;
+}
