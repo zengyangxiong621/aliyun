@@ -216,7 +216,7 @@
     color: orangered;
 }
 .footr-main{
-    width: 930px;
+    width: 1031px;
     height: 336px;
     padding: 0 0 0 100px;
     margin-top: -177.6px;
@@ -341,7 +341,8 @@
 .about-search-right-icon{
     width: 32px;
     height: 32px;
-    margin-left: -5px;
+    margin-left: -10px;
+    margin-top: -3px;
     background-color: #888888;
 }
 
