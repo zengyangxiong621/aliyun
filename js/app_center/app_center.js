@@ -60,3 +60,47 @@ toTop.onclick=function(){
 		clearInterval(id);
 	}
 };
+
+// 以下为附加内容js
+// 点击搜索框上方的四个检索词变色
+// 获取节点
+var conText=document.getElementsByClassName("content1-text");
+var search=document.getElementById("search");
+// 为其绑定点击响应函数
+for(let i=0;i<conText.length;i++){
+	conText[i].onclick=function(){
+	for(let j=0;j<conText.length;j++){
+		conText[j].style.backgroundColor="white";
+		conText[j].style.color="black";
+	}
+	// 点击搜索框上方检索词,搜索框的内容相应变更
+	switch(true){
+		case conText[0]:
+		conText[0].style.backgroundColor="#ff6a00";
+		conText[0].style.color="#fff";
+		search.style.placeholder="全民加速节";
+		break;
+		case conText[1]:
+		conText[1].style.backgroundColor="#ff6a00";
+		conText[1].style.color="#fff";
+		search.style.placeholder="请输入你想要找的域名";
+		break;
+		case conText[2]:
+		conText[2].style.backgroundColor="#ff6a00";
+		conText[2].style.color="#fff";
+		search.style.placeholder="请输入你想要找的商标";
+		break;
+		case conText[3]:
+		conText[3].style.backgroundColor="#ff6a00";
+		conText[3].style.color="#fff";
+		search.style.placeholder="请输入你想要找的公司";
+		break;
+		default:
+		break;
+		}
+	conText[i].style.backgroundColor="#ff6a00";
+	conText[i].style.color="#fff";	
+	}
+}
+
+
