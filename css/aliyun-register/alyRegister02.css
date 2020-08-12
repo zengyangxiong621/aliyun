@@ -6,7 +6,7 @@
 .register-body-middle{
 	max-width: 1200px;
 	height: 700px;
-	padding: 60px 0 80px;
+	padding: 60px 0 0px;
 	margin: auto;
 /* 	background-color: #00FFFF; */
 }
@@ -18,7 +18,7 @@
 }
 .register-body-leftinfo-a1{
 	width: 600px;
-	height: 100%;
+	height: 68%;
 	float: left;
 	text-decoration: none;
 	padding-top: 100px;
