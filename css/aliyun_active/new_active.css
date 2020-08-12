@@ -154,7 +154,7 @@ html{
 	right: 0;
 }
 .new_active{
-	background-image: url(../img/home_hero/new_active.png);
+	background-image: url(../../img/home_hero/new_active.png);
 	background-size: cover;
 	width: 100%;
 	height: 240px;
