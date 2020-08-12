@@ -243,3 +243,32 @@ a{
 	display: inline-block;
 	background-color: #00FFFF;
 }
+.find_all_div{
+	width: 1180px;
+	height: 200px;
+	margin: 0 auto;
+	margin-top: 60px;
+}
+.find_all{
+	width: 230px;
+	height: 42px;
+	margin: 0 auto;
+	line-height: 42px;
+	background-image: linear-gradient(90deg,#ff4f1d,#ff1866);
+	color: white;
+	text-align: center;
+	border-radius: 50px;
+}
+.find_all>span:nth-child(1){
+	padding-left: 20px;
+	display: inline-block;
+	font-size: 16px;
+}
+.find_all>span:nth-child(2){
+	margin-left:10px;
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: white;
+	border-radius: 50px;
+}
