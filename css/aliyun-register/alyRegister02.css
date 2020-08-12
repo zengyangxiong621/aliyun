@@ -48,6 +48,9 @@
 /* 	    background-color: #cbb8b8; */
 		box-shadow: 0 2px 15px rgba(0,0,0,.15);
 }
+.register-body-rightinfo-container{
+	position: relative;
+}
 .register-body-rightinfo-main-title{
 	text-align: center;
 	cursor: pointer;

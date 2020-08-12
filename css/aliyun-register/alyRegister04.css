@@ -1,0 +1,44 @@
+/* 登录对应账号密码接口默认隐藏css */
+.register-body-rightinfo-src{
+	width: 350px;
+	height: 250px;
+	position: absolute;
+	top: 132px;
+	left: 125px;
+	display: none;
+background-image: linear-gradient(to bottom,#FFEB3B, #FF9800);
+}
+.register-body-rightinfo-src-title div:nth-of-type(1){
+	font-size: 18px;
+	height: 30px;
+	margin-bottom: 30px;
+}
+#idcard{
+	display:block ;
+	font-size: 12px;
+	border: 1px solid #ccc;
+	height: 42px;
+	width: 96%;
+	padding-left: 10px;
+	margin-bottom: 20px;
+}
+#password{
+	display:block ;
+	font-size: 12px;
+	border: 1px solid #ccc;
+	height: 42px;
+	width: 96%;
+	padding-left: 10px;
+	margin-bottom: 20px;
+}
+#submit{
+	background-color: #ff6a00;
+	border-color: #ff6a00;
+	font-size: 14px;
+	box-shadow: 0 1px 1px #ebe7e6;
+	height: 42px;
+	line-height: 42px;
+	outline: none;
+	color: #fff;
+	width: 100%;
+}
