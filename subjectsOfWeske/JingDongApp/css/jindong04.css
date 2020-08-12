@@ -1,0 +1,94 @@
+/* 第四行,京东秒杀框css */
+.goods{
+	margin-bottom: 2.2rem;
+}
+.goods-kill-floor{
+	background-color: white;
+	margin-top: 1rem;
+}
+.goods-kill-floor-container{
+	width: 18.75rem ;
+	justify-content: space-between;
+	display: flex;
+	margin: auto;
+}
+.goods-kill-floor-title{
+	font-size: 0;
+}
+.goods-kill-floor-title a{
+	text-decoration: none;
+}
+.goods-miaosha{
+	color: #333;
+	font-size: .7rem;
+	display: inline-block;
+	margin-top: .4rem;
+	margin-right: .25rem;
+	margin-left: .5rem;
+}
+.goods-kill-time{
+	display: inline-block;
+	border: 1px solid #f2270c;
+	border-radius: .4rem;
+	margin-top: .4rem;
+}
+.main-time{
+	height: 100%;
+	color: white;
+	display: inline-block;
+	font-size: .6rem;
+	background-image: linear-gradient(90deg,#f10001,#fe4e18);
+	border-radius: 0.4rem;
+	padding-left: .25rem;
+	padding-right: .25rem;
+	margin-right: .2rem;
+}
+.kill-time{
+	margin-right: .2rem;
+	font-weight: 700;
+	display: inline-block;
+}
+.kill-time div{
+	height: 100%;
+	display: inline-block;
+	font-size: .6rem;
+}
+.goods-kill-floor-more{
+	padding-right: 1.1rem;
+}
+.goods-kill-floor-more a{
+	text-decoration: none;
+	font-size: 0.6rem;
+	color: #f23030;
+}
+.goods-kill-text-container a{
+	text-decoration: none;
+}
+.goods-kill-text-container{
+	padding-top: 1rem;
+	font-size: 0;
+	margin: auto;
+	text-align: center;
+	background-color: white;
+}
+.goods-kill-text-container>div{
+	display: inline-block;
+	text-align: center;
+	padding: 0 .25rem;
+}
+.goods-kill-text-container img{
+	width: 100%;
+}
+.lable-price{
+	display: inline-block;
+	font-size: 11px;
+}
+.pre-price{
+	display: inline-block;
+	color: #f2270c;
+	font-size: .7rem;
+}
+.aft-price{
+	color: #999;
+	font-size: .6rem;
+}

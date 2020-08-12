@@ -57,7 +57,7 @@
 	display: inline-block;
 	height: 52px;
 	border-bottom: 3px solid #ff6a00;
-	border-right: 1px solid #73777a;
+	border-right: 1px solid #d8d8d8;
 	background-color:white;
 }
 .register-body-rightinfo-main-title div{
@@ -118,6 +118,7 @@
 	color: #1890ff;
 }
 .register-body-rightinfo-other{
+	border-top: 1px solid #d8d8d8;
 	margin-top: 20px;
 	height: 40px;
 }
@@ -127,7 +128,7 @@
 	float:left ;
 	display: inline-block;
 	height: 40px;
-	border-right: 1px solid #73777a;
+	border-right: 1px solid #d8d8d8;
 }
 .register-body-rightinfo-otherways-text{
 	line-height: 40px;

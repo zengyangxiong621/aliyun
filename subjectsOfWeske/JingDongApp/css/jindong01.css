@@ -1,0 +1,79 @@
+/* 头部搜索框位置 */
+html{
+	font-size: 57.6px;
+}
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #F5F5F5;
+}
+.head{
+	z-index: 999;
+	position: fixed;
+	width: 100%;
+}
+.head-container{
+	/* width: 10.8rem; */
+	height: 1rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	justify-content: space-between;
+	background-color: #d52d2d;
+}
+.head-hidden-icon{
+	display: flex;
+	width: 1rem;
+	align-items: center;
+	justify-content: center;
+}
+.head-hidden-icon img{
+	width: 0.5rem;
+}
+.head-search{
+	padding: 0.2rem;
+	display: flex;
+	flex-grow: 1;
+	align-items: center;
+	background: #f7f7f7;
+	border-radius: 0.5rem;
+	border: 1px solid #e5e5e5;
+}
+.head-search a{
+	font-size: 0.3rem;
+	text-decoration: none;
+}
+.head-search-box{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.head-search-box-logo{
+	display: inline-block;
+	width: 0.6rem;
+}
+.head-search-box-logo img{
+	width: 0.4rem;
+}
+.head-search-box-search{
+	width: 0.8rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.head-search-box-search img{
+	width: 0.5rem;
+}
+.head-search-box-search span{
+	padding-left: 0.1rem;
+}
+.head-register{
+	width: 1rem;
+	font-size: 0.3rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.head-register span{
+	color: white;
+}

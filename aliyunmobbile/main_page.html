@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+		<link rel="stylesheet" type="text/css" href="css/new_file.css"/>
+		<link rel="stylesheet" type="text/css" href="css/iconfont/iconfont.css"/>
+	</head>
+	<body>
+		<div class="top_nav">
+			<div class="logo_box">
+				<img src="img/logo.png" >
+			</div>
+			<div class="tip_box">
+				<img src="img/ling.png" >
+			</div>
+			<div class="right_icon">
+				<div class="top_img iconfont " >&#xe645;</div>
+				
+				<div class="top_img iconfont" onclick="showmenu()">&#xe63e;</div>
+			</div>
+			
+		</div>
+		<div class="menu_bg"></div>
+		<div class="menu_show" id="menu_show">
+			<div>
+				热门产品
+				<span class="title_img iconfont" style="font-size: 20px;">&#xe659;</span>
+			</div>
+			<div>
+				云产品
+				<span class="title_img iconfont" style="font-size: 20px;">&#xe659;</span>
+				</div>
+			<div>
+				解决方案
+				<span class="title_img iconfont" style="font-size: 20px;">&#xe659;</span>
+				</div>
+			<div>
+				企业应用中心
+				<span class="title_img iconfont" style="font-size: 20px;">&#xe659;</span>
+				</div>
+			<div>
+				云市场
+				<span class="title_img iconfont" style="font-size: 20px;">&#xe659;</span>
+				</div>
+			<div>
+				支持与服务
+				<span class="title_img iconfont" style="font-size: 20px;">&#xe659;</span>
+				</div>
+			<div>
+				云栖号
+				<span class="title_img iconfont" style="font-size: 20px;">&#xe659;</span>
+				</div>
+			<div>
+				阿里云大学
+				<span class="title_img iconfont" style="font-size: 20px;">&#xe659;</span>
+				</div>
+			<div>
+				帮助与文档
+				<span class="title_img iconfont" style="font-size: 20px;">&#xe659;</span>
+				</div>
+			<div>
+				聆听(提交建议)
+				<span class="title_img iconfont" style="font-size: 20px;">&#xe659;</span>
+				</div>
+			<span>
+				免费注册，享免费套餐
+				</span>
+			<span>
+				搜索
+				<span class="sousuo">
+					<img src="img/sousuo.png" >
+				</span>
+			</span>
+		</div>
+		<div class="carousel_big"> 
+			<div class="carousel_div">
+				<img src="img/lunbo1.png" >
+				<img src="img/lunbo2.png" >
+				<img src="img/lunbo3.png" >
+			</div>
+		</div>
+		
+		
+		<div class="infor_big">
+			<div>
+				<div class="infor_left">
+					<img src="img/weixing.png" >
+				</div>
+				<div class="infor_right">
+					<p>重磅发布</p>
+					<p>最新快讯</p>
+				</div>
+			</div>
+			<div>
+				<div class="infor_left">
+					<img src="img/sanjiaoxing.png" >
+				</div>
+				<div class="infor_right">
+					<p>云产品入门</p>
+					<p>快速上云</p>
+				</div>
+			</div>
+			<div>
+				<div class="infor_left">
+					<img src="img/lingxing.png" >
+				</div>
+				<div class="infor_right">
+					<p>专属客服</p>
+					<p>电话<95187></95187></p>
+				</div>
+			</div>
+		</div>
+		<div class="aliyun_class">
+			<div class="class_top">
+				阿里云技术课堂
+				<span class="iconfont">&#xe60d;</span>
+			</div>
+			<div class="class_middle">
+				云计算入门，进阶；在线与阿里，蚂蚁金服技术大咖学习云计算
+			</div>
+			<div class="class_bottom">
+				阿里巴巴小程序繁星计划
+			</div>
+		</div>
+		<div class="use_place">
+			<div class="top_title">
+					满足您各种使用场景
+				<span class="iconfont">&#xe60d;</span>
+			</div>
+			<div class="class_middle">
+				您在业务中遇到的各种场景
+				</br>
+				阿里云都致力为您提供最适合的解决方案
+			</div>
+			<div class="bottom_bgimg" style="background-image: url(img/bgimg1.jpg);" >
+				<div>新零售·电商</div>
+				<div>包含大数据精细化运营方案、视频直播售卖方案
+				   </br>
+				   等多个新型零售场景
+				</div>
+			</div>
+			<div class="bottom_bgimg" style="background-image: url(img/bgimg2.jpg);" >
+				<div>健康·医疗</div>
+				<div>结合传统医疗，利用云计算构建
+				   </br>
+				   更智能、更精准的医疗云生态
+				</div>
+			</div>
+			<div class="bottom_bgimg" style="background-image: url(img/bgimg3.jpg);" >
+				<div>娱乐·网络游戏</div>
+				<div>为手游/页游/端游开发者提供
+				   </br>
+				   部署方案，助力快速成长
+				</div>
+			</div>
+		</div>
+		
+		<div class="intro_product">
+			<div>了解我们的产品</div>
+			<div>
+				计算、存储、安全、大数据、人工智能...
+				</br>
+				我们为您提供全球领先的云计算服务，助您业务飞跃发展！
+				
+			</div>
+		</div>
+		<div class="cloud_things">
+			<div class="things_1">
+				<span class="iconfont"></span>
+				<p>云服务器ECS</p>
+			</div>
+			<div class="things_2">
+				<span class="iconfont"></span>
+				<p>域名注册</p>
+			</div>
+			<div class="things_3">
+				<span class="iconfont"></span>
+				<p>云虚拟机</p>
+			</div>
+			<div class="things_4">
+			<span class="iconfont"></span>
+				<p>云解析</p>
+			</div>
+		</div>
+		
+		<div class="service_div">
+			<div class="service_part">
+				<span style="background-image: url(img/1.png);"></span>
+				<span>弹性计算</span>
+				<div class="iconfont tubiao" onclick="serviceshow()"  >&#xe659;</div>
+				<div class="service_show" id="service_show" style="height: 577px;">
+					<div class="show_part">
+						<div class="part_one">云服务器 ECS</div>
+						<div class="part_two">从安全型到内存型、从进阶型到入门型的云服务器</div>
+					</div>
+					<div class="show_part">
+						<div class="part_one">弹性裸金属服务器（神龙）</div>
+						<div class="part_two">可弹性伸缩的高性能计算服务</div>
+					</div>
+					<div class="show_part">
+						<div class="part_one">块存储</div>
+						<div class="part_two">块存储是为云服务器ECS提供的低时延、持久性、高可靠的数据块级随机存储</div>
+					</div>
+					<div class="show_part">
+						<div class="part_one">轻量应用服务器</div>
+						<div class="part_two">可快速搭建且易于管理的轻量级云服务器</div>
+					</div>
+					<div class="show_part">
+						<div class="part_one">容器服务</div>
+						<div class="part_two">支持微服务架构、全生命周期管理的Docker服务</div>
+					</div>
+					<div class="show_part">
+						<div class="part_one">函数计算</div>
+						<div class="part_two">事件驱动的全托管计算服务</div>
+					</div>
+				</div>
+			</div>
+			<div class="service_part">
+				<span style="background-image: url(img/2.png);"></span>
+				<span>存储和CDN</span>
+				<div class="iconfont tubiao" onclick="serviceshow()"   >&#xe659;</div>
+				<div class="service_show" id="service_show" style="height: 577px;">
+					<div class="show_part">
+						<div class="part_one">对象存储OSS</div>
+						<div class="part_two">比传统存储成本下降25%~75%的强安全企业级存储</div>
+					</div>
+					<div class="show_part">
+						<div class="part_one">文件存储 NAS</div>
+						<div class="part_two">可共享访问，弹性扩展，高可靠，高性能的分布式文件系统</div>
+					</div>
+					<div class="show_part">
+						<div class="part_one">CDN</div>
+						<div class="part_two">常用于视频、图片、文件加速的跨域网络分发</div>
+					</div>
+					<div class="show_part">
+						<div class="part_one">云存储网关</div>
+						<div class="part_two">云上云下部署，轻松对接云存储，无限空间</div>
+					</div>
+					<div class="show_part">
+						<div class="part_one">混合云存储阵列</div>
+						<div class="part_two">本地部署的高性能存储设备，与云端无缝连接</div>
+					</div>
+					<div class="show_part">
+						<div class="part_one">智能云相册</div>
+						<div class="part_two">提供影像文件存储、管理；支持对影像内容进行分类打标、面孔识别等智能分析，基于自然语言理解的智能搜索服务</div>
+					</div>
+				</div>
+			</div>
+			<div class="service_part">
+				<span style="background-image: url(img/3.png);"></span>
+				<span>数据库</span>
+				<div class="iconfont tubiao">&#xe659;</div>
+				<div class="service_show" id="service_show" style="height: 577px;">
+					<div class="show_part">
+						<div class="part_one">云数据库POLARDB</div>
+						<div class="part_two">既融合了商业数据库稳定、可靠、高性能的特征，又具有开源数据库简单、可扩展、持续迭代的优势</div>
+					</div>
+					<div class="show_part">
+						<div class="part_one">云数据库 MySQL 版</div>
+						<div class="part_two">6年AliSQL自研分支挑战性能极限，提供全套运维方案</div>
+					</div>
+					<div class="show_part">
+						<div class="part_one">云数据库 SQLServer 版</div>
+						<div class="part_two">企业许可授权，权限更为开放，引擎功能更为强大</div>
+					</div>
+					<div class="show_part">
+						<div class="part_one">云数据库 Redis 版</div>
+						<div class="part_two">可持久化的内存数据库服务，存储、吞吐可无限扩展</div>
+					</div>
+					<div class="show_part">
+						<div class="part_one">云数据库 MongoDB 版</div>
+						<div class="part_two">三副本集和集群架构文本存储，数据可热迁移</div>
+					</div>
+					<div class="show_part">
+						<div class="part_one">分析型数据库</div>
+						<div class="part_two">三副本集和集群架构文本存储，数据可热迁移</div>
+					</div>
+				</div>
+			</div>
+			<div class="service_part">
+				<span style="background-image: url(img/4.png);"></span>
+				<span>网络</span>
+				<div class="iconfont tubiao">&#xe659;</div>
+				<div class="service_show" id="service_show" style="577px">
+					<div class="show_part">
+						<div class="part_one">专有网络VPC</div>
+						<div class="part_two">构建逻辑隔离网络，确保资源安全</div>
+					</div>
+					<div class="show_part">
+						<div class="part_one">负载均衡</div>
+						<div class="part_two">对多台云服务器进行流量分发的负载均衡服务</div>
+					</div>
+					<div class="show_part">
+						<div class="part_one">NAT网关</div>
+						<div class="part_two">支持NAT转发、共享带宽的VPC网关</div>
+					</div>
+					<div class="show_part">
+						<div class="part_one">弹性公网IP</div>
+						<div class="part_two">独立的公网IP资源，灵活绑定云资源</div>
+					</div>
+					<div class="show_part">
+						<div class="part_one">VPN网关</div>
+						<div class="part_two">支持安全加密数据传输的VPC网关</div>
+					</div>
+					<div class="show_part">
+						<div class="part_one">共享带宽</div>
+						<div class="part_two">有效节省带宽使用成本</div>
+					</div>
+				</div>
+			</div>
+			<div class="service_part">
+				<span style="background-image: url(img/5.png);"></span>
+				<span>域名与网络</span>
+				<div class="iconfont tubiao">&#xe659;</div>
+				<div class="service_show" id="service_show" style="height: 577px;">
+					<div class="show_part">
+						<div class="part_one">域名注册</div>
+						<div class="part_two">超过1000万个域名注册，安全易用</div>
+					</div>
+					<div class="show_part">
+						<div class="part_one">云解析</div>
+						<div class="part_two">为全网域名提供安全、稳定、极速的智能解析服务平台</div>
+					</div>
+					<div class="show_part">
+						<div class="part_one">云虚拟主机</div>
+						<div class="part_two">国内市场NO.1，独享资源虚机298元/年起</div>
+					</div>
+					<div class="show_part">
+						<div class="part_one">企业邮箱</div>
+						<div class="part_two">无限容量，50万企业信用之选</div>
+					</div>
+					<div class="show_part">
+						<div class="part_one">HTTPDNS</div>
+						<div class="part_two">具有域名防劫持、精准调度、生效快，面向移动开发者打造</div>
+					</div>
+					<div class="show_part">
+						<div class="part_one">网站建设	</div>
+						<div class="part_two">专业建站服务，30万用户信任之选</div>
+					</div>
+				</div>
+			</div>
+			<div class="service_part">
+				<span style="background-image: url(img/6.png);"></span>
+				<span>安全</span>
+				<div class="iconfont tubiao">&#xe659;</div>
+				<div class="service_show" id="service_show">
+					<div class="show_part">
+						<div class="part_one"></div>
+						<div class="part_two"></div>
+					</div>
+					<div class="show_part">
+						<div class="part_one"></div>
+						<div class="part_two"></div>
+					</div>
+					<div class="show_part">
+						<div class="part_one"></div>
+						<div class="part_two"></div>
+					</div>
+					<div class="show_part">
+						<div class="part_one"></div>
+						<div class="part_two"></div>
+					</div>
+					<div class="show_part">
+						<div class="part_one"></div>
+						<div class="part_two"></div>
+					</div>
+					<div class="show_part">
+						<div class="part_one"></div>
+						<div class="part_two"></div>
+					</div>
+				</div>
+			</div>
+			<div class="service_part">
+				<span style="background-image: url(img/7.png);"></span>
+				<span>大数据服务</span>
+				<div class="iconfont tubiao">&#xe659;</div>
+				<div class="service_show" id="service_show">
+					<div class="show_part">
+						<div class="part_one"></div>
+						<div class="part_two"></div>
+					</div>
+					<div class="show_part">
+						<div class="part_one"></div>
+						<div class="part_two"></div>
+					</div>
+					<div class="show_part">
+						<div class="part_one"></div>
+						<div class="part_two"></div>
+					</div>
+					<div class="show_part">
+						<div class="part_one"></div>
+						<div class="part_two"></div>
+					</div>
+					<div class="show_part">
+						<div class="part_one"></div>
+						<div class="part_two"></div>
+					</div>
+					<div class="show_part">
+						<div class="part_one"></div>
+						<div class="part_two"></div>
+					</div>
+				</div>
+			</div>
+			<div class="service_part">
+				<span style="background-image: url(img/8.png);"></span>
+				<span>应用服务</span>
+				<div class="iconfont tubiao">&#xe659;</div>
+				<div class="service_show" id="service_show">
+					<div class="show_part">
+						<div class="part_one">DDoS高防IP</div>
+						<div class="part_two"></div>
+					</div>
+					<div class="show_part">
+						<div class="part_one"></div>
+						<div class="part_two"></div>
+					</div>
+					<div class="show_part">
+						<div class="part_one"></div>
+						<div class="part_two"></div>
+					</div>
+					<div class="show_part">
+						<div class="part_one"></div>
+						<div class="part_two"></div>
+					</div>
+					<div class="show_part">
+						<div class="part_one"></div>
+						<div class="part_two"></div>
+					</div>
+					<div class="show_part">
+						<div class="part_one"></div>
+						<div class="part_two"></div>
+					</div>
+				</div>
+			</div>
+			<div class="service_part">
+				<span style="background-image: url(img/9.png);"></span>
+				<span>移动</span>
+				<div class="iconfont tubiao">&#xe659;</div>
+				<div class="service_show" id="service_show">
+					<div class="show_part">
+						<div class="part_one"></div>
+						<div class="part_two"></div>
+					</div>
+					<div class="show_part">
+						<div class="part_one"></div>
+						<div class="part_two"></div>
+					</div>
+					<div class="show_part">
+						<div class="part_one"></div>
+						<div class="part_two"></div>
+					</div>
+					<div class="show_part">
+						<div class="part_one"></div>
+						<div class="part_two"></div>
+					</div>
+					<div class="show_part">
+						<div class="part_one"></div>
+						<div class="part_two"></div>
+					</div>
+					<div class="show_part">
+						<div class="part_one"></div>
+						<div class="part_two"></div>
+					</div>
+				</div>
+			</div>
+			<div class="service_part">
+				<span style="background-image: url(img/10.png);"></span>
+				<span>视频服务</span>
+				<div class="iconfont tubiao">&#xe659;</div>
+				<div class="service_show" id="service_show">
+					<div class="show_part">
+						<div class="part_one"></div>
+						<div class="part_two"></div>
+					</div>
+					<div class="show_part">
+						<div class="part_one"></div>
+						<div class="part_two"></div>
+					</div>
+					<div class="show_part">
+						<div class="part_one"></div>
+						<div class="part_two"></div>
+					</div>
+					<div class="show_part">
+						<div class="part_one"></div>
+						<div class="part_two"></div>
+					</div>
+					<div class="show_part">
+						<div class="part_one"></div>
+						<div class="part_two"></div>
+					</div>
+					<div class="show_part">
+						<div class="part_one"></div>
+						<div class="part_two"></div>
+					</div>
+				</div>
+			</div>
+			<div class="service_part">
+				<span style="background-image: url(img/11.png);"></span>
+				<span>中间件</span>	
+				<div class="iconfont tubiao">&#xe659;</div>
+				<div class="service_show" id="service_show">
+					<div class="show_part">
+						<div class="part_one"></div>
+						<div class="part_two"></div>
+					</div>
+					<div class="show_part">
+						<div class="part_one"></div>
+						<div class="part_two"></div>
+					</div>
+					<div class="show_part">
+						<div class="part_one"></div>
+						<div class="part_two"></div>
+					</div>
+					<div class="show_part">
+						<div class="part_one"></div>
+						<div class="part_two"></div>
+					</div>
+					<div class="show_part">
+						<div class="part_one"></div>
+						<div class="part_two"></div>
+					</div>
+					<div class="show_part">
+						<div class="part_one"></div>
+						<div class="part_two"></div>
+					</div>
+				</div>
+			</div>
+			<div class="service_part">
+				<span style="background-image: url(img/12.png);"></span>
+				<span>物联网</span>
+				<div class="iconfont tubiao">&#xe659;</div>
+				<div class="service_show" id="service_show">
+					<div class="show_part">
+						<div class="part_one"></div>
+						<div class="part_two"></div>
+					</div>
+					<div class="show_part">
+						<div class="part_one"></div>
+						<div class="part_two"></div>
+					</div>
+					<div class="show_part">
+						<div class="part_one"></div>
+						<div class="part_two"></div>
+					</div>
+					<div class="show_part">
+						<div class="part_one"></div>
+						<div class="part_two"></div>
+					</div>
+					<div class="show_part">
+						<div class="part_one"></div>
+						<div class="part_two"></div>
+					</div>
+					<div class="show_part">
+						<div class="part_one"></div>
+						<div class="part_two"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="ai_div">
+			<div>
+				人工智能
+				<span class="iconfont">&#xe60d;</span>
+			</div>
+			<div>AI学习与体验 | AI应用场景 | AI计算落地</div>
+			<div class="ai_img_div">
+				<div class="ai_part">
+					<div>
+						<div>AI学习</div>
+						<div>一键get技术技能</div>
+					</div>
+					<div>
+						<div>AI解决方案</div>
+						<div>人工智能零距离</div>
+					</div>
+					<div>
+						<div>AI产品</div>
+						<div>体验阿里AI能力</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="partner_div">
+			<div class="partner_word">合作伙伴</div>
+			<div class="partner_img">
+				<div>
+					<img src="img/33.png" >
+				</div>
+				<div>
+					<img src="img/34.png" >
+				</div>
+				<div>
+					<img src="img/35.png" >
+				</div>
+			</div>
+		</div>
+		
+		<div class="setmeal_div">
+			<div>阿里云免费套餐，40+核心云产品，6个月免费使用</div>
+			<div>立即领取</div>
+		</div>
+		
+		<div class="aliyun_bottom">
+			<div class="bottom_one">
+				<div>热门产品</div>
+				<div>云服务器   域名注册   1分钱API服务   云虚拟主机</div>
+			</div>
+			<div class="bottom_two">
+				<div class="two_part">
+					<div>切换至电脑版</div>
+					<div>阿里云APP下载</div>
+					<div>关于我们</div>
+				</div>	
+				<div class="two_part2">
+					<span>关于我们：</span>
+					微信：<img src="img/weixin.jpg" >
+					新浪微博：<img src="img/weibo.jpg" >
+				</div>
+			</div>
+			<div class="bottom_three">
+				<div class="three_part">
+					售前咨询：95187转1
+				</div>
+				<div class="three_part2">
+					<div><img src="img/aliyunaoyun.png" ></div>
+					<div>©2018 Aliyun All rights reserved</div>
+				</div>
+			</div>	
+		</div>
+
+		
+		
+		
+		
+		
+		<script src="js/new_file.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>
