@@ -1,0 +1,31 @@
+/* 第三行：导航栏 */
+.nav{
+	padding-bottom: .3rem;
+	border-bottom: 0.01rem solid gray;
+	width: 100%;
+	background-image: linear-gradient(to bottom,blue, pink);
+}
+.nav-all{
+	width: 7.2rem;
+	margin: auto;
+	display: flex;
+	justify-content: space-around;
+}
+.nav-all div{
+	font-size: 0;
+	text-align: center;
+}
+.nav-all div div{
+	width: .8rem;
+	height: .8rem;
+	background-color: #00FFFF;
+	border-radius: 0.5rem;
+}
+.nav-all div i{
+	padding: .1rem;
+	display: block;
+	font-size: .5rem;
+}
+.nav-all div span{
+	font-size: .2rem /* !important */;
+}

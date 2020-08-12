@@ -1,0 +1,32 @@
+/* 第二行：轮播图 */
+.lb-all{
+	padding-top: .8rem;
+	padding-bottom: .5rem;
+	background-image:linear-gradient(to bottom,red,blue) ;
+}
+.lb-show{
+	margin: auto;
+	width: 7.2rem;
+	overflow: hidden;
+	background-color: aqua;
+}
+.lb-save{
+	width: 21.6rem;
+	display: flex;
+	animation: lb 5s;
+	animation-iteration-count: infinite;
+}
+.lb-save img{
+	width: 7.2rem;
+}
+/* 轮播实现 */
+@keyframes lb{
+	0%{}
+	25%{
+		transform: translate(-7.2rem,0);
+	}
+	50%{
+		transform: translate(-14.4rem,0);
+	}
+	100%{}
+}

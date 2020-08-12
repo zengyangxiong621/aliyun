@@ -1,0 +1,51 @@
+/* 第一行:搜索栏 */
+.search-container{
+	padding-top: .2rem;
+	padding-bottom: .2rem;
+	z-index: 999;
+	position:fixed ;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: red;
+}
+.search-hiddenicon{
+	font-size: 0;
+	margin-left: .2rem;
+/* 	background-color: aqua; */
+}
+.search-hiddenicon img{
+	width: .3rem;
+}
+.search-changePage{
+	display: flex;
+	flex-grow: 1;
+	justify-content: space-around;
+	align-items: center;
+	font-size: .3rem;
+	color: #d7d3d0;
+/* 	background-color: antiquewhite; */
+}
+.search-changePage-text{
+	width: 0.8rem;
+	height: 0.8rem;
+	text-align: center;
+	line-height: 0.8rem;
+/* 	border: 1px solid black; */
+	border-radius: 0.5rem;
+	background-color:#e41515;
+	opacity: 1;
+}
+.search-icon{
+	font-size: 0;
+	margin-right: .1rem;
+/* 	background-color: aquamarine; */
+}.search-icon img{
+	width: .4rem;
+}
+@media screen and (max-device-width:360px) {
+	.search-container{
+		font-size: 50px;
+	}
+}

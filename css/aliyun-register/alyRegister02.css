@@ -6,7 +6,7 @@
 .register-body-middle{
 	max-width: 1200px;
 	height: 700px;
-	padding: 60px 0 80px;
+	padding: 60px 0 0px;
 	margin: auto;
 /* 	background-color: #00FFFF; */
 }
@@ -18,7 +18,7 @@
 }
 .register-body-leftinfo-a1{
 	width: 600px;
-	height: 100%;
+	height: 68%;
 	float: left;
 	text-decoration: none;
 	padding-top: 100px;
@@ -57,7 +57,7 @@
 	display: inline-block;
 	height: 52px;
 	border-bottom: 3px solid #ff6a00;
-	border-right: 1px solid #73777a;
+	border-right: 1px solid #d8d8d8;
 	background-color:white;
 }
 .register-body-rightinfo-main-title div{
@@ -118,6 +118,7 @@
 	color: #1890ff;
 }
 .register-body-rightinfo-other{
+	border-top: 1px solid #d8d8d8;
 	margin-top: 20px;
 	height: 40px;
 }
@@ -127,7 +128,7 @@
 	float:left ;
 	display: inline-block;
 	height: 40px;
-	border-right: 1px solid #73777a;
+	border-right: 1px solid #d8d8d8;
 }
 .register-body-rightinfo-otherways-text{
 	line-height: 40px;

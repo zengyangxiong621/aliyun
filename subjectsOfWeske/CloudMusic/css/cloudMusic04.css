@@ -1,0 +1,50 @@
+/* 第四行：主内容 */
+.advs{
+	width: 100%;
+	background-image: linear-gradient(to bottom,pink, yellowgreen);
+}
+.advs-list-title-container{
+	width: 7.2rem;
+	margin: auto;
+}
+.advs-list-title-main{
+	display: inline-block;
+}
+.advs-list-title-main span{
+	margin-left: .2rem;
+	color: white;
+	font-weight: 600;
+	font-size: .3rem;
+}
+.advs-list-title-son{
+	margin-right: .2rem;
+	float: right;
+	display: inline-block;
+}
+.advs-list-title-son span{
+	border: 0.01rem solid gray;
+	border-radius: 0.5rem;
+	color: white;
+	padding-left: .1rem;
+	padding-right: .1rem;
+	font-size: .2rem;
+}
+.advs-info-container{
+	width: 7.2rem;
+	margin: auto;
+}
+.advs-information{
+	text-align: center;
+	line-height: .3rem;
+	display: inline-block;
+	width: 2rem;
+}
+.advs-information img{
+	width: 2rem;
+}
+.advs-imformation-text{
+	font-size: .2rem;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}

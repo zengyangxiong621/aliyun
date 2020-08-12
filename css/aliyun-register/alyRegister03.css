@@ -1,0 +1,62 @@
+/* 下层内容css */
+.register-body-bottom{
+	margin: auto;
+	width: 1200px;
+	height: 500px;
+}
+.register-body-bottom-container{
+	max-width: 1200px;
+	height: 700px;
+	margin: auto;
+	border-top:1px solid #d8d8d8;
+}
+.register-body-bottom-firstLine{
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+.register-body-bottom-firstLine a{
+	text-decoration: none;
+	color: #9b9ea0;
+	font-size: 16px;
+	margin-right: 35px;
+}
+.register-body-bottom-firstLine a:hover{
+	color: #ff6a00!important;
+	transition: color 0.5s;
+}
+.register-body-bottom-secondLine a{
+	text-align: left;
+	line-height: 30px;
+	font-size: 14px;
+	color: #73777a;
+	text-decoration: none;
+	letter-spacing: .5px;
+	display: inline-block;
+	margin-right: 10px;
+}
+.register-body-bottom-secondLine a:hover{
+	color: #ff6a00!important;
+	transition: color 0.5s;
+}
+.register-body-bottom-secondLine div{
+	text-align: left;
+	line-height: 30px;
+	font-size: 14px;
+	color: #73777a;
+	letter-spacing: .5px;
+}
+.register-body-bottom-thirdLine a{
+	text-decoration: none;
+	color: #73777a;
+}
+.register-body-bottom-thirdLine img{
+	display: inline-block;
+	height: 20px;
+	margin-right: 12px;
+}
+.register-body-bottom-thirdLine span{
+	height: 20px;
+	line-height: 20px;
+	color: #939393;
+	font-size: 12px;
+}

@@ -1,0 +1,23 @@
+/* 底部的导航栏css */
+.footer{
+	width: 100%;
+	z-index: 999;
+	position: fixed;
+	bottom: 0;
+	background-color: white;
+}
+.footer-container{
+	margin: auto;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+.footer-container a{
+	width: 100%;
+}
+.foot-nav{
+	display: inline-block;
+}
+.foot-nav img{
+	width: 100%;
+}
