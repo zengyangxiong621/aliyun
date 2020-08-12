@@ -1,0 +1,165 @@
+
+  .aliyun-icon {
+	font-family: "aliyun-icon" !important;
+	font-size: 16px;
+	font-style: normal;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+  }
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+/* 居中类 */
+.w {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+
+.navbar{
+    height: 150px;
+    /* background-color: pink; */
+    padding-top: 30px;
+    box-sizing: border-box;
+}
+
+.top-bar{
+    height: 70px;
+    /* background-color: purple; */
+}
+
+.top-bar-aliyun-logo{
+    float: left;
+    height: 40px;
+    width: 119px;
+}
+
+.top-bar-aliyun-logo img{
+    float: left;
+    width: 100%;
+    height: 27px;
+    margin-top: 6.5px;
+}
+
+.top-bar-aliyun-language{
+    float: left;
+    margin-top: 11px;
+    margin-left: 12px;
+    color: #999;
+    border: 1px solid #ededed;
+    line-height: 22px;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+    margin-right: 80px;
+}
+
+
+/* 中国站右侧字体图标向下箭头 */
+/* .aliyun-icon-arrow_down::before{   
+    content: "\e65a";
+} */
+
+/* 输入框的总区域 */
+.top-bar-search-wrapper{
+    float: left;
+    position: relative;
+    width: 450px;
+    height: 36px;
+    font-size: 14px;
+    padding-right: 0;
+}
+
+
+/* 搜索栏的输入框 */
+.top-bar-common-input-search{
+    height: 36px;
+    border: 2px solid #ff6a00;
+    outline: none;
+    padding-left: 0;
+    padding-right: 70px;
+    width: 450px;
+    font-size: 16px;
+    color: #bababa;
+    letter-spacing: .5px;
+    line-height: 24px;
+    background: transparent;
+}
+
+
+/* 搜索栏的上部 */
+.top-bar-search-tab{
+    position: absolute;
+    height: 24px;
+    top: -24px;
+    left: 0;
+    font-size: 12px;
+}
+
+/* 搜索栏的上部 */
+.top-bar-search-tab>div{
+    display: inline-block;
+}
+
+.top-bar-search-tab .selected{
+    background: #ff6a00;
+    color: #fff;
+}
+
+.top-bar-search-tab-item{
+    margin-right: 4px;
+    width: auto;
+    padding: 0 8px;
+    cursor: pointer;
+    height: 100%;
+    text-align: center;
+    line-height: 24px;
+}
+
+.top-bar-common-input-search{
+    position: relative;
+}
+
+.top-bar-common-input-search>input{
+    float: left;
+    padding-left: 30px;
+    height: 100%;
+    border: none;
+    font-size: 12px;
+    background: transparent;
+}
+
+.top-bar-common-search-button{
+    float: right;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 70px;
+    height: 36px;
+    background-color: #ff6a00;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    line-height: 36px;
+    user-select: none;
+}
+
+
+.top-bar-ability{
+    float: right;
+    width: 413px;
+    height: 40px;
+}
+
+.top-bar-ability .register{
+    /* float: right; */
+}
