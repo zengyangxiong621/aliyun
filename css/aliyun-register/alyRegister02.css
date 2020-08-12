@@ -8,13 +8,13 @@
 	height: 700px;
 	padding: 60px 0 80px;
 	margin: auto;
-	background-color: #00FFFF;
+/* 	background-color: #00FFFF; */
 }
 .register-body-leftinfo{
 	width: 600px;
 	height: 100%;
 	float: left;
-	background-color: #808080;
+/* 	background-color: white; */
 }
 .register-body-leftinfo-a1{
 	width: 600px;
@@ -43,9 +43,9 @@
 }
 .register-body-rightinfo{
 	    width: 600px;
-	    height: 100%;
+	    height: 83%;
 	    float: left;
-	    background-color: #cbb8b8;
+/* 	    background-color: #cbb8b8; */
 		box-shadow: 0 2px 15px rgba(0,0,0,.15);
 }
 .register-body-rightinfo-main-title{
@@ -107,4 +107,50 @@
 }
 .register-body-rightinfo-sweep a{
 	text-decoration: none;
+	color: #1890ff;
+}
+.register-body-rightinfo-otherways-icon img{
+	width: 20px;
+	height: 20px;
+}
+.register-body-rightinfo-RAN a{
+	text-decoration: none;
+	color: #1890ff;
+}
+.register-body-rightinfo-other{
+	margin-top: 20px;
+	height: 40px;
+}
+.register-body-rightinfo-otherways{
+	text-align: center;
+	width: 50%;
+	float:left ;
+	display: inline-block;
+	height: 40px;
+	border-right: 1px solid #73777a;
+}
+.register-body-rightinfo-otherways-text{
+	line-height: 40px;
+	color: #999;
+	font-size: 14px;
+	display: inline-block;
+}
+.register-body-rightinfo-otherways-icon{
+	display: inline-block;
+	line-height: 40px;
+	vertical-align: sub;
+}
+.register-body-rightinfo-otherways-icon a{
+	display: inline-block;
+	text-decoration: none;
+	margin-right: 8px;
+}
+.register-body-rightinfo-RAN{
+	text-align: center;
+	width: 49.8%;
+	float: left;
+	height: 40px;
+	font-size: 12px;
+	line-height: 40px;
+	display: inline-block;
 }
