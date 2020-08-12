@@ -1,0 +1,79 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "372107",
+      "name": "cc-arrow-right-circle",
+      "font_class": "cc-arrow-right-circle",
+      "unicode": "e60d",
+      "unicode_decimal": 58893
+    },
+    {
+      "icon_id": "1215936",
+      "name": "A-dashboard-button-terminal",
+      "font_class": "adashboardbuttonterminal",
+      "unicode": "e63e",
+      "unicode_decimal": 58942
+    },
+    {
+      "icon_id": "1321300",
+      "name": "user",
+      "font_class": "user",
+      "unicode": "e645",
+      "unicode_decimal": 58949
+    },
+    {
+      "icon_id": "2057659",
+      "name": "域名",
+      "font_class": "yuming",
+      "unicode": "e72e",
+      "unicode_decimal": 59182
+    },
+    {
+      "icon_id": "2057662",
+      "name": "云虚拟主机",
+      "font_class": "yunxunizhuji",
+      "unicode": "e72f",
+      "unicode_decimal": 59183
+    },
+    {
+      "icon_id": "5583375",
+      "name": "ecs 云服务器ECS",
+      "font_class": "ecsyunfuwuqiECS",
+      "unicode": "e8a8",
+      "unicode_decimal": 59560
+    },
+    {
+      "icon_id": "8777509",
+      "name": "arrow_up",
+      "font_class": "icon-test",
+      "unicode": "e658",
+      "unicode_decimal": 58968
+    },
+    {
+      "icon_id": "8777511",
+      "name": "arrow_down",
+      "font_class": "icon-test1",
+      "unicode": "e659",
+      "unicode_decimal": 58969
+    },
+    {
+      "icon_id": "8918244",
+      "name": "go-to-link",
+      "font_class": "icon-test2",
+      "unicode": "e664",
+      "unicode_decimal": 58980
+    },
+    {
+      "icon_id": "13533291",
+      "name": "dns 云解析 PrivateZone",
+      "font_class": "dnsyunjiexiPrivateZone",
+      "unicode": "e615",
+      "unicode_decimal": 58901
+    }
+  ]
+}
