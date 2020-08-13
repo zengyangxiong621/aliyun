@@ -1,5 +1,32 @@
 /* 我的内容模块css */
 .adv-sweep-mine{
 	position: absolute;
-	top: 0;
+	top: 1.2rem;
+}
+.adv-sweep-mine-navLists div{
+	font-size: 0.5rem;
+	width: 0.5rem;
+	height: 0.5rem;
+	border: 0.01rem solid black;
+	border-radius: 0.5rem;
+	padding: 0.1rem;
+}
+.adv-sweep-mine-navLists span{
+	font-size: 0.2rem;
+}
+.adv-sweep-mine-nav-container{
+	margin-top: 0.2rem;
+	display: flex;
+	white-space: nowrap;
+	overflow-x: auto;
+	justify-content: space-around;
+	align-items: center;
+}
+.adv-sweep-mine-nav-container::-webkit-scrollbar{
+	display: none;
+}
+.adv-sweep-mine-navLists{
+	text-align: center;
+	margin-left: 0.5rem;
+	margin-right: 0.5rem;
 }
