@@ -6,7 +6,8 @@ body{
 	margin: 0;
 }
 
-.adv-sweep-find{
-	display: none;
+#adv-sweep-find{
+	/* display: none; */
 	padding-top: 1.2rem;
 }
+

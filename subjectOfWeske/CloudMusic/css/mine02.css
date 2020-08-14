@@ -1,0 +1,33 @@
+/* 本地音乐、最近播放、下载管理、我的电台、我的收藏css */
+
+.adv-sweep-mine-locationList-container-list div{
+	font-size: .4rem;
+}
+.adv-sweep-mine-locationList-container-list span{
+	font-size: .3rem;
+}
+.adv-sweep-mine-creatList{
+	display: flex;
+}
+.adv-sweep-mine-collect{
+	display: flex;
+	align-items: center;
+}
+.adv-sweep-mine-creatList span{
+	font-size: .4rem;
+}
+.adv-sweep-mine-collect span{
+	font-size: .4rem;
+}
+.adv-sweep-mine-creatList div{
+	font-size: .5rem;
+}
+.adv-sweep-mine-collect div{
+	font-size: .5rem;
+}
+.adv-sweep-mine-creatList div:nth-of-type(2){
+	margin-left: 3.5rem;
+}
+.adv-sweep-mine-collect div:nth-of-type(2){
+	margin-left: 3.5rem;
+}

@@ -1,8 +1,12 @@
 /* 我的内容模块css */
-.adv-sweep-mine{
+#adv-sweep-mine{
 	position: absolute;
 	top: 1.2rem;
 	background-image: linear-gradient(to bottom,#ff0733,#de80ff, #00ebff);
+	display: none;
+}
+.adv-sweep-mine-nav{
+	width: 7.2rem;
 }
 .adv-sweep-mine-navLists div{
 	font-size: 0.5rem;
@@ -20,10 +24,9 @@
 .adv-sweep-mine-nav-container{
 	margin-top: 0.2rem;
 	display: flex;
+	align-items: center;
 	white-space: nowrap;
 	overflow-x: auto;
-	justify-content: space-around;
-	align-items: center;
 }
 .adv-sweep-mine-nav-container::-webkit-scrollbar{
 	display: none;
@@ -36,4 +39,15 @@
 	text-align: center;
 	margin-left: 0.5rem;
 	margin-right: 0.5rem;
+}
+.adv-sweep-mine-locationList-container-list{
+	border-top: 0.01px solid #a05252;
+	align-items: center;
+	padding-top: .25rem;
+	padding-bottom: .25rem;
+	padding-left: .5rem;
+	display: flex;
+}
+.adv-sweep-mine-locationList-container-list div{
+	margin-right: .25rem;
 }

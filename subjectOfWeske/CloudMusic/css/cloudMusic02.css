@@ -1,9 +1,9 @@
 /* 第二行：轮播图 */
 .lb-container{
-	margin-top: 0.4rem;
+/* 	margin-top: 0.4rem; */
 }
 .lb-all{
-	padding-top: .8rem;
+/* 	padding-top: .8rem; */
 	padding-bottom: .5rem;
 	background-image:linear-gradient(to bottom,red,blue) ;
 }

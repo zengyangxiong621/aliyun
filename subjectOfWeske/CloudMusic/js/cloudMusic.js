@@ -14,14 +14,20 @@
 })();
 //事件1：点击第一行内容文字，文字变大
 //获取四个文本节点
-var textFirstline=document.getElementsByClassName("search-changePage-text");
+let textFirstline=document.getElementsByClassName("search-changePage-text");
+let text_mine=document.getElementsByClassName("adv-sweep-mine");
+let jump=document.getElementsByClassName("jump_page");
 for(let i=0;i<textFirstline.length;i++){
 	textFirstline[i].onclick=function(){
 		for(let j=0;j<textFirstline.length;j++){
 			textFirstline[j].style.fontSize="0.3rem";
 			textFirstline[j].style.fontWeight="500";
+			jump[j].style.display="none";
 		}
 		textFirstline[i].style.fontSize="0.4rem";
 		textFirstline[i].style.fontWeight="600";
+		jump[i].style.display="block";
 	};
 }
+
+// 事件2:点击第一行内容文字,页面跳转
