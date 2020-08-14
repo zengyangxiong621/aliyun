@@ -242,7 +242,46 @@ a{
 	height: 436px;
 	display: inline-block;
 	background-color: #00FFFF;
+	
 }
+.ecs_part1{
+	height: 94px;
+	padding: 16px 20px;
+	background-image: url(../../img/aliyun_active/bg.png);
+	background-size: cover;
+}
+.ecs_part1>div:nth-child(1){
+	color: #fff!important;
+	font-size: 18px; 
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+.ecs_part1>div:nth-child(2){
+	color: white;
+	font-size: 14px;
+}
+.ecs_part2{
+	padding: 14px 20px;
+    background: #fff;
+    height: 20px;
+}
+.ecs_part3{
+	padding: 16px 20px;
+	height: 51px;
+	background-color: green;
+}
+.ecs_part4{
+	color: #181818;
+	height: 105px;
+    box-sizing: border-box;
+	padding: 12px 20px 8px;
+	background-color: blue;
+}
+.ecs_part5{
+	height: 60px;
+	background-color: yellow;
+}
+
 .find_all_div{
 	width: 1180px;
 	margin: 0 auto;
@@ -307,4 +346,6 @@ a{
 .tab_item>span{
 	padding: 0 5px;
 	border-left:1px solid #ff4f1d;
+	color: black;
+	cursor: pointer;
 }
