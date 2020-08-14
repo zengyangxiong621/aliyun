@@ -2,6 +2,7 @@
 .adv-sweep-mine{
 	position: absolute;
 	top: 1.2rem;
+	background-image: linear-gradient(to bottom,#ff0733,#de80ff, #00ebff);
 }
 .adv-sweep-mine-navLists div{
 	font-size: 0.5rem;
