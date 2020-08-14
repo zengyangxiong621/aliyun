@@ -27,7 +27,7 @@
 	color: #d7d3d0;
 /* 	background-color: antiquewhite; */
 }
-.search-changePage .search-changePage-text:nth-of-type(2) span{
+.search-changePage-text:nth-of-type(2){
 	font-size: .4rem;
 	font-weight: 600;
 }

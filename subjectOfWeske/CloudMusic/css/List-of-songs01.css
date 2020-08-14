@@ -1,0 +1,53 @@
+/* 歌单页面css */
+body{
+	margin: 0;
+}
+.song-list{
+	position: relative;
+}
+.song-list a{
+	text-decoration: none;
+}
+.song-list-container{
+	background-image: url(../img/Umbrella.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 10rem;
+}
+.song-list-one-line{
+	width: 100%;
+	position: fixed;
+	display: flex;
+	justify-content: space-between;
+	line-height: 1.1rem;
+}
+.song-list-one-line i{
+	font-size: .5rem;
+	color: white;
+}
+.song-list-return{
+	margin-left: .2rem;
+}
+.song-list-question{
+	margin-right: .2rem;
+}
+.song-list-date{
+	position: absolute;
+	top: 2rem;
+	color: white;
+}
+.song-list-date-container{
+	display: flex;
+	justify-content: center;
+	align-items: baseline;
+}
+.song-list-date-day{
+	
+}
+.song-list-date-container span{
+	font-size: .5rem;
+}
+.song-list-date-month{
+	font-size: .5rem;
+}

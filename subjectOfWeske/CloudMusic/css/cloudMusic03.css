@@ -5,6 +5,10 @@
 	width: 100%;
 	background-image: linear-gradient(to bottom,blue, pink);
 }
+.nav a{
+	text-decoration: none;
+	color: #000000;
+}
 .nav-all{
 	width: 7.2rem;
 	margin: auto;

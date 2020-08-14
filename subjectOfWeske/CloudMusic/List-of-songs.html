@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=yes" />
+		<link rel="stylesheet" type="text/css" href="css/iconfont.css"/>
+		<link rel="stylesheet" type="text/css" href="css/List-of-songs01.css"/>
+		<title>歌单</title>
+	</head>
+	<body>
+		<!-- 歌单页面 -->
+		<div class="song-list">
+			<!-- 容器 -->
+			<div class="song-list-container">
+				<!-- 顶部部分：背景图加播放栏 -->
+				<div class="song-list-background">
+					<!-- 一行：退出箭头+问号符 -->
+					<div class="song-list-one-line">
+						<!-- 退出箭头 -->
+						<a href="main-page.html">
+							<div class="song-list-return">
+								<i class="iconfont">&#xe6dd;</i>
+							</div>
+						</a>
+						<!-- 问号符 -->
+						<a href="javascript:void();">
+							<div class="song-list-question">
+								<i class="iconfont">&#xe680;</i>
+							</div>
+						</a>
+					</div>
+					<!-- 二行：日期 -->
+					<div class="song-list-date">
+						<div class="song-list-date-container">
+							<!-- 日 -->
+							<div class="song-list-date-day">14</div>
+							<span>/</span>
+							<!-- 月 -->
+							<div class="song-list-date-month">08</div>
+						</div>
+					</div>
+					<!-- 三行：播放全部栏 -->
+					<div></div>
+				</div>
+				<!-- 播放列表部分 -->
+				<div class="song-list-play"></div>
+			</div>
+		</div>
+		<script src="js/cloudMusic.js"></script>
+	</body>
+</html>

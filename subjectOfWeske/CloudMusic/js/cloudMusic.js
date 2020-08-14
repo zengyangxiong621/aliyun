@@ -15,11 +15,12 @@
 //事件1：点击第一行内容文字，文字变大
 //获取四个文本节点
 let textFirstline=document.getElementsByClassName("search-changePage-text");
-let text_mine=document.getElementsByClassName("adv-sweep-mine");
+console.log(textFirstline.length);
 let jump=document.getElementsByClassName("jump_page");
-for(let i=0;i<textFirstline.length;i++){
+console.log(jump.length);
+for(let i=0;i<2;i++){
 	textFirstline[i].onclick=function(){
-		for(let j=0;j<textFirstline.length;j++){
+		for(let j=0;j<2;j++){
 			textFirstline[j].style.fontSize="0.3rem";
 			textFirstline[j].style.fontWeight="500";
 			jump[j].style.display="none";
