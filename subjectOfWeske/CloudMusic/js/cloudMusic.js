@@ -12,12 +12,22 @@
 	window.addEventListener("resize", resizeBaseFontSize, false);
 	window.addEventListener("orientationchange", resizeBaseFontSize, false);
 })();
-//事件1：点击第一行内容文字，文字变大、页面跳转
-//获取四个文本节点
+
+//获取四个文本节点--事件1：点击第一行内容文字，文字变大、页面跳转
 let textFirstline=document.getElementsByClassName("search-changePage-text");
 console.log(textFirstline.length);
 let jump=document.getElementsByClassName("jump_page");
 console.log(jump.length);
+
+
+//获取节点--事件3：点击“我的”板块的广场、动态下的滚动条会来回滚动
+let rollBar=document.getElementsByClassName("adv-sweeep-cloudvillage-news-roll");
+let ground=document.getElementsByClassName("ground");
+let news=document.getElementsByClassName("news");
+
+
+
+//事件1：点击第一行内容文字，文字变大、页面跳转
 for(let i=0;i<textFirstline.length;i++){
 	textFirstline[i].onclick=function(){
 		for(let j=0;j<textFirstline.length;j++){
@@ -32,3 +42,11 @@ for(let i=0;i<textFirstline.length;i++){
 }
 
 // 事件2：点击播放
+
+//事件3：点击“我的”板块的广场、动态下的滚动条会来回滚动
+ground[0].onclick=function(){
+	rollBar[0].style.transform='translate(0,0)';
+};
+news[0].onclick=function(){
+	rollBar[0].style.transform='translate(2.89rem,0)';
+};

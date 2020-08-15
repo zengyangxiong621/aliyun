@@ -1,0 +1,40 @@
+ /* 云村内容模块：内容可随第一行指定文字滑动更变css */
+ #adv-sweep-cloudvillage{
+	 position: absolute;
+	 top: 0;
+ }
+ .adv-sweeep-cloudvillage-container{
+	 padding-top: 1.2rem;
+	background: linear-gradient(45deg, #9C27B0,#F44336,#FFEB3B, transparent);
+ }
+ .adv-sweeep-cloudvillage-news{
+	 padding-bottom: .1rem;
+	 position: relative;
+	 width: 7.2rem;
+	 font-size: .4rem;
+	 text-align: center;
+ }
+ .adv-sweeep-cloudvillage-news div{
+	 display: inline-block;
+ }
+ .adv-sweeep-cloudvillage-news>div:nth-child(1){
+	 margin-right: 1.5rem;
+ }
+ .ground div{
+	 padding-left: .2rem;
+	 padding-right: .2rem;
+ }
+ .news div{
+	 padding-left: .2rem;
+	 padding-right: .2rem;
+ }
+ .adv-sweeep-cloudvillage-news-roll{
+	 position: absolute;
+	 width: 1.2rem;
+	 border: .03rem solid #1bf5e8;
+	 border-radius: 1rem;
+	 bottom: 0;
+	 left: 0;
+	 margin-left: 1.5rem; 
+	 transition: all .5s; 
+ }
