@@ -12,15 +12,15 @@
 	window.addEventListener("resize", resizeBaseFontSize, false);
 	window.addEventListener("orientationchange", resizeBaseFontSize, false);
 })();
-//事件1：点击第一行内容文字，文字变大
+//事件1：点击第一行内容文字，文字变大、页面跳转
 //获取四个文本节点
 let textFirstline=document.getElementsByClassName("search-changePage-text");
 console.log(textFirstline.length);
 let jump=document.getElementsByClassName("jump_page");
 console.log(jump.length);
-for(let i=0;i<2;i++){
+for(let i=0;i<textFirstline.length;i++){
 	textFirstline[i].onclick=function(){
-		for(let j=0;j<2;j++){
+		for(let j=0;j<textFirstline.length;j++){
 			textFirstline[j].style.fontSize="0.3rem";
 			textFirstline[j].style.fontWeight="500";
 			jump[j].style.display="none";
@@ -31,4 +31,4 @@ for(let i=0;i<2;i++){
 	};
 }
 
-// 事件2:点击第一行内容文字,页面跳转
+// 事件2：点击播放

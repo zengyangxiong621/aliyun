@@ -16,6 +16,7 @@ body{
 	height: 5rem;
 }
 .song-list-one-line{
+	z-index: 999;
 	width: 100%;
 	position: fixed;
 	display: flex;
@@ -88,5 +89,32 @@ body{
 	background-color: greenyellow;	
 }
 .song-list-play-songs{
-	padding-top: .5rem;
+	display: flex;
+}
+.song-list-play-songs>a{
+	margin-top: .5rem;
+	display: flex;
+	align-items: center;
+}
+.name-of-songs{
+	font-size: .4rem;
+	color: white;
+}
+.name-of-writers{
+	font-size: .2rem;
+	color: white;
+}
+#MV{
+	color: white;
+	margin-left: 1rem;
+}
+#MV div{
+	font-size: .5rem;
+}
+#Show{
+	margin-left: 1rem;
+	color: white;
+}
+#Show div{
+	font-size: .8rem;
 }
