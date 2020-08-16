@@ -55,3 +55,5 @@ news[0].onclick=function(){
 	dynamic_container[0].style.display="block";
 	ground_container[0].style.display="none"	
 };
+
+//事件4：点击左侧边栏显示图标可以向右滑出左侧的个人信息区域
