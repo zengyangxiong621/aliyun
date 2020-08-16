@@ -24,6 +24,8 @@ console.log(jump.length);
 let rollBar=document.getElementsByClassName("adv-sweeep-cloudvillage-news-roll");
 let ground=document.getElementsByClassName("ground");
 let news=document.getElementsByClassName("news");
+let ground_container=document.getElementsByClassName("adv-sweeep-cloudvillage-ground");
+let dynamic_container=document.getElementsByClassName("adv-sweeep-cloudvillage-dynamic");
 
 
 
@@ -46,6 +48,7 @@ for(let i=0;i<textFirstline.length;i++){
 //事件3：点击“我的”板块的广场、动态下的滚动条会来回滚动
 ground[0].onclick=function(){
 	rollBar[0].style.transform='translate(0,0)';
+	
 };
 news[0].onclick=function(){
 	rollBar[0].style.transform='translate(2.89rem,0)';
