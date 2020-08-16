@@ -1,13 +1,14 @@
 /* 我的内容模块css */
 #adv-sweep-mine{
 	position: absolute;
+	width: 100%;
 	top: 1.2rem;
 	height: 100%;
 	background-image: linear-gradient(to bottom,#ff0733,#de80ff, #00ebff);
 	display: none;
 }
 .adv-sweep-mine-nav{
-	width: 7.2rem;
+	width: 100%rem;
 }
 .adv-sweep-mine-navLists div{
 	font-size: 0.5rem;

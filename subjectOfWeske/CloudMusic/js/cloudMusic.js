@@ -17,7 +17,6 @@
 let textFirstline=document.getElementsByClassName("search-changePage-text");
 console.log(textFirstline.length);
 let jump=document.getElementsByClassName("jump_page");
-console.log(jump.length);
 
 
 //获取节点--事件3：点击“我的”板块的广场、动态下的滚动条会来回滚动
@@ -48,8 +47,11 @@ for(let i=0;i<textFirstline.length;i++){
 //事件3：点击“我的”板块的广场、动态下的滚动条会来回滚动
 ground[0].onclick=function(){
 	rollBar[0].style.transform='translate(0,0)';
-	
+	dynamic_container[0].style.display="none";
+	ground_container[0].style.display="block"
 };
 news[0].onclick=function(){
 	rollBar[0].style.transform='translate(2.89rem,0)';
+	dynamic_container[0].style.display="block";
+	ground_container[0].style.display="none"	
 };
