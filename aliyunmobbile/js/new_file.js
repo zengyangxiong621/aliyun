@@ -6,7 +6,7 @@ function resizeBaseFontSize(){
          
 		 rootHtml.style.fontSize = deviceWidth / 10+ "px";  
       }  */
-      rootHtml.style.fontSize = deviceWidth / 10+ "px";  
+      rootHtml.style.fontSize = deviceWidth / 10 + "px";  
    }  
    resizeBaseFontSize();  
    window.addEventListener("resize", resizeBaseFontSize, false);  

@@ -19,14 +19,16 @@ a{
     position: absolute;
     padding-left: 14px;
     left: 0;
-    top: 0;
+	top: 0;
+	cursor: pointer;
 }
 .logo_box img{
 	display: block;
     width: 82.5px;
     height: 20px;
     position: relative;
-    margin-top: 15px;
+	margin-top: 15px;
+	cursor: pointer;
 /*    overflow: hidden;
  */}
 .tip_box{
@@ -176,6 +178,17 @@ a{
 	width: 3.333334rem;
 	display: flex;
 	align-items: center;
+	
+}
+.a_father{
+	position: relative;
+}
+.a_position{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+    left: 0;
 }
 .infor_left{
 	width: 1.12rem;
@@ -224,7 +237,7 @@ a{
 .class_bottom{
 	width: 9.36rem;
 	height: 5.3332rem;
-	background-image: url(../img/plan-bgimg.jpg);
+	background-image: url(../img/main_page/plan-bgimg.jpg);
 	background-size: cover;
 	display: flex;
 	justify-content: center;
@@ -249,9 +262,7 @@ a{
 .top_title>span{
 	font-size: 0.6rem;
 }
-.top_desc{
-		
-}
+
 .bottom_bgimg{
 	width: 9.36rem;
 	height: 5.3332rem;
@@ -308,7 +319,7 @@ a{
 	display: block;
 }
 .things_1>span:before{
-	content: "\e8a8";
+	content: "\e617";
 	font-size: 0.64rem;
 	color: #00C1DE;
 }
@@ -323,7 +334,7 @@ a{
 	color: #F15533;
 }
 .things_4>span:before{
-	content: "\e615";
+	content: "\e662";
 	font-size: 0.64rem;
 	color: #F15533;
 }
@@ -363,11 +374,13 @@ a{
 	text-indent: 10px;
 }
 .service_part>div:nth-child(3){
-	position: absolute;
+    position: absolute;
     right: 20px;
     top: 8px;
-    font-size: 40px;
-	opacity: 0.2;
+    font-size: 20px;
+    opacity: 0.2;
+    line-height: 40px;
+
 }
 .service_show{
 	height: 450px;
@@ -378,9 +391,7 @@ a{
 	overflow: hidden;
 	border-top: 1px solid #F6F7F7;
 }
-#service_show{
-	
-}
+
 .show_part{
 	background-color: white;
 	padding-top: 10px;
@@ -454,16 +465,16 @@ a{
     padding: .16rem .53333333rem;
 } 
 .ai_part>div:nth-child(1){
-	background-image: url(../img/25.jpg);
+	background-image: url(../img/main_page/25.jpg);
 	background-size: cover;
 }
 .ai_part>div:nth-child(2){
-	background-image: url(../img/26.jpg);
+	background-image: url(../img/main_page/26.jpg);
 	background-size: cover;
 	margin-left: 0.3rem;
 }
 .ai_part>div:nth-child(3){
-	background-image: url(../img/27.jpg);
+	background-image: url(../img/main_page/27.jpg);
 	background-size: cover;
 	margin-left: 0.3rem;
 }
