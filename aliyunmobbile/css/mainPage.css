@@ -531,6 +531,9 @@ a{
 	margin: 0 auto;
 	text-align: center;
 }
+.setmeal_div>div:nth-child(2) a{
+	color: #fff;
+}
 .aliyun_bottom{
 	width: 10rem;
 	height: 8.2rem;
