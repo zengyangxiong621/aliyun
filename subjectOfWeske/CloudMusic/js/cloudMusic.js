@@ -25,8 +25,8 @@ let ground=document.getElementsByClassName("ground");
 let news=document.getElementsByClassName("news");
 let ground_container=document.getElementsByClassName("adv-sweeep-cloudvillage-ground");
 let dynamic_container=document.getElementsByClassName("adv-sweeep-cloudvillage-dynamic");
-
-
+// 获取节点--事件4：点击左侧边栏显示图标可以向右滑出左侧的个人信息区域
+let icon_leftHidden=document.getElementById("hidden");
 
 //事件1：点击第一行内容文字，文字变大、页面跳转
 for(let i=0;i<textFirstline.length;i++){
