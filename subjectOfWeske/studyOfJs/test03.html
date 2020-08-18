@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>数组</title>
+	</head>
+	<body>
+		<script>
+			let arr=[1,2,3,4,10,15,5];
+			// console.log(arr);//返回数组
+			// console.log(arr.toString());//带逗号的拼接字符串
+			// console.log(arr.valueOf());//返回的仍然是数组
+			// console.log(arr.join("@"));//返回替代逗号的@的拼接字符串
+
+			// 栈方法---push()、pop()      先进后出
+			// push()接收任意参数的并添加到数组末尾,返回的是修改后数组的length
+			// let arr_push=arr.push(5,6);console.log(arr_push.toString());
+			// pop()取得的是最后一项并弹出，返回的是弹出的数组元素
+			// let arr_pop=arr.pop();console.log(arr_pop);console.log(arr.length);
+			
+			//队列方法---shift()、unshift()     先进先出
+			// shift()方法会以栈的方式取得数组第一项并删除,返回取得的元素
+			// unshift() 方法可向数组的开头添加一个或更多元素，并返回新的长度
+			// let arr_push01=arr.push(5,6);console.log(arr_push01);
+			// let arr_push02=arr.push(7);console.log(arr_push02);
+			// let arr_shift=arr.shift();console.log(arr_shift);
+			// console.log(arr.length);
+			// let arr_unshift=arr.unshift(-1,0);console.log(arr_unshift);
+			// console.log(arr.toString());
+			
+			// 重排序方法---reverse()、sort()
+			// sort会将元素转化为字符串进行比较
+			// console.log(arr.sort().toString());
+			// console.log(arr.reverse().toString());
+			
+			// 操作方法---concat()、splice()、slice()
+			// let arr01=arr.concat(20,[20,30]);//新数组，不影响原始数组arr
+			// console.log(arr);
+			// console.log(arr01);
+			
+			// let arr02=arr.slice(1);
+			// let arr03=arr.slice(1,5);//不含开头，含结束;也等价于.slice(-6,-2)
+			// console.log(arr03);
+			// console.log(arr02);//新数组，不影响原始数组arr
+			// console.log(arr);
+			
+			// splice()方法:删除/插入/替换(会影响原始数组)
+			// 删除:splice(start,numOfDel);例如(0,1)即删除第一项;(1,1)即第一项
+			// 插入:splice(start, numOfDel,插入元素(个数可多个));
+			// 替换:splice(start,numOfDel,替换元素(个数可多个));
+			let splice01=arr.splice(1,5);
+			console.log(splice01);
+			console.log(arr);//删除
+			let splice02=arr.splice(2,3,11,12,13);
+			console.log(splice02);
+			console.log(arr);//插入
+			let splice03=arr.splice(0,0,-1,-2,-3);
+			console.log(splice03);
+			console.log(arr);//替换
+			
+			
+		</script>
+	</body>
+</html>
