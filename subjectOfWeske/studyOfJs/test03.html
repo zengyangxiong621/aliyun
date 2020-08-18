@@ -48,16 +48,35 @@
 			// 删除:splice(start,numOfDel);例如(0,1)即删除第一项;(1,1)即第一项
 			// 插入:splice(start, numOfDel,插入元素(个数可多个));
 			// 替换:splice(start,numOfDel,替换元素(个数可多个));
-			let splice01=arr.splice(1,5);
-			console.log(splice01);
-			console.log(arr);//删除
-			let splice02=arr.splice(2,3,11,12,13);
-			console.log(splice02);
-			console.log(arr);//插入
-			let splice03=arr.splice(0,0,-1,-2,-3);
-			console.log(splice03);
-			console.log(arr);//替换
+			// let splice01=arr.splice(1,5);
+			// console.log(splice01);
+			// console.log(arr);//删除,返回被删除的数组
+			// let splice02=arr.splice(2,3,11,12,13);
+			// console.log(splice02);
+			// console.log(arr);//插入，无删除，返回空数组
+			// let splice03=arr.splice(0,0,-1,-2,-3);
+			// console.log(splice03);
+			// console.log(arr);//替换，无删除，返回空数组
 			
+			// 位置方法
+			// .indexOf(a,b)和.lastIndexOf(a,b),a表示要查找的项,b表示要查找的起点的索引位置
+			// .indexOf向右边找,.lastIndexOf向左边找
+			
+			// 迭代方法：every()、filter()、forEarch()、map()、some()
+			// every和some的区别在于every是&&条件必须满足true才返回true，而some是||
+			// forEarch方法没有返回值
+			// let everys=arr.every(function(item,index,array){
+			// 	return item>2;
+			// });
+			// let everys=arr.every(i=>i>2);
+			// console.log(everys);
+			// let somes=arr.some(i=>i>5);
+			// console.log(somes);
+			
+			// let filters=arr.filter(i=>i>5);//滤掉小于5的元素，返回大于5的新数组
+			// console.log(filters);		
+			
+			arr.forEach(i=>console.log(i));
 			
 		</script>
 	</body>
