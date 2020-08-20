@@ -676,14 +676,14 @@
 	/* background-color:red; */
 }
 .bottom-top>span{
-	height:29.47px
+	height:29.47px;
 	display:inline-block;
-	text-align: left;
-	line-height: 29.47px;
-	font-size: 16px;
-	color: #9b9ea0;
-	letter-spacing: .5px;
-	margin-right: 35px;
+	text-align:left;
+	line-height:29.47px;
+	font-size:16px;
+	color:#9b9ea0;
+	letter-spacing:.5px;
+	margin-right:35px;
 }
 .input-sousuo{
 	display:inline-block;
